@@ -6,10 +6,10 @@ local Credits = Instance.new("TextLabel")
 local Credits_Roundify_12px = Instance.new("ImageLabel")
 local OneShot = Instance.new("TextButton")
 local AnomicV = Instance.new("TextButton")
-local TROLLSERVER = Instance.new("TextButton")
-local OPShotgun = Instance.new("TextButton")
-local ScriptHub = Instance.new("TextButton")
-local Destroy = Instance.new("TextButton")
+local Anomiss = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local ScriptXHub = Instance.new("TextButton")
+local DeleteGUI = Instance.new("TextButton")
 
 --Properties:
 
@@ -113,69 +113,69 @@ end)
 
 
 
-TROLLSERVER.Name = "TROLLSERVER"
-TROLLSERVER.Parent = Frame
-TROLLSERVER.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TROLLSERVER.BorderSizePixel = 0
-TROLLSERVER.Position = UDim2.new(0.691099524, 0, 0.311926603, 0)
-TROLLSERVER.Size = UDim2.new(0, 95, 0, 37)
-TROLLSERVER.Font = Enum.Font.SourceSans
-TROLLSERVER.Text = "Anomiss V1.0.6"
-TROLLSERVER.TextColor3 = Color3.fromRGB(255, 255, 255)
-TROLLSERVER.TextSize = 14.000
-TROLLSERVER.MouseButton1Down:connect(function()
+Anomiss.Name = "Anomiss"
+Anomiss.Parent = Frame
+Anomiss.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Anomiss.BorderSizePixel = 0
+Anomiss.Position = UDim2.new(0.691099524, 0, 0.311926603, 0)
+Anomiss.Size = UDim2.new(0, 95, 0, 37)
+Anomiss.Font = Enum.Font.SourceSans
+Anomiss.Text = "Anomiss V1.0.6"
+Anomiss.TextColor3 = Color3.fromRGB(255, 255, 255)
+Anomiss.TextSize = 14.000
+Anomiss.MouseButton1Down:connect(function()
 _G.LoadingScreen = false -- Switch to true if you want the loading screen for anomic.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/Anomiss/main/AnomissLoader.lua"))()
 end)
 
 
 
-OPShotgun.Name = "OPShotgun"
-OPShotgun.Parent = Frame
-OPShotgun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-OPShotgun.BorderSizePixel = 0
-OPShotgun.Position = UDim2.new(0.0575916134, 0, 0.550458729, 0)
-OPShotgun.Size = UDim2.new(0, 95, 0, 37)
-OPShotgun.Font = Enum.Font.SourceSans
-OPShotgun.Text = "Infinite Yield"
-OPShotgun.TextColor3 = Color3.fromRGB(255, 255, 255)
-OPShotgun.TextSize = 14.000
-OPShotgun.MouseButton1Down:connect(function()
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.0575916134, 0, 0.550458729, 0)
+InfiniteYield.Size = UDim2.new(0, 95, 0, 37)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 
-ScriptHub.Name = "ScriptHub"
-ScriptHub.Parent = Frame
-ScriptHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScriptHub.BorderSizePixel = 0
-ScriptHub.Position = UDim2.new(0.374345541, 0, 0.550458729, 0)
-ScriptHub.Size = UDim2.new(0, 95, 0, 37)
-ScriptHub.Font = Enum.Font.SourceSans
-ScriptHub.Text = "ScriptX Hub V1.5"
-ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScriptHub.TextSize = 14.000
-ScriptHub.MouseButton1Down:connect(function()
+ScriptXHub.Name = "ScriptXHub"
+ScriptXHub.Parent = Frame
+ScriptXHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptXHub.BorderSizePixel = 0
+ScriptXHub.Position = UDim2.new(0.374345541, 0, 0.550458729, 0)
+ScriptXHub.Size = UDim2.new(0, 95, 0, 37)
+ScriptXHub.Font = Enum.Font.SourceSans
+ScriptXHub.Text = "ScriptX Hub V1.5"
+ScriptXHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptXHub.TextSize = 14.000
+ScriptXHub.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptXHub/DiscordHiReplyBot-OLD-DOESNT-WORK-broken-/main/jjsongcatch"))()
 end)
 
 
 
-Destroy.Name = "Destroy"
-Destroy.Parent = Frame
-Destroy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Destroy.BorderSizePixel = 0
-Destroy.Position = UDim2.new(0.691099465, 0, 0.550458729, 0)
-Destroy.Size = UDim2.new(0, 95, 0, 37)
-Destroy.Font = Enum.Font.SourceSans
-Destroy.Text = "Destroy GUI"
-Destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
-Destroy.TextSize = 14.000
+DeleteGUI.Name = "DeleteGUI"
+DeleteGUI.Parent = Frame
+DeleteGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DeleteGUI.BorderSizePixel = 0
+DeleteGUI.Position = UDim2.new(0.691099465, 0, 0.550458729, 0)
+DeleteGUI.Size = UDim2.new(0, 95, 0, 37)
+DeleteGUI.Font = Enum.Font.SourceSans
+DeleteGUI.Text = "Destroy GUI"
+DeleteGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+DeleteGUI.TextSize = 14.000
 
 -- Scripts:
 
 local function VZPO_fake_script() -- Destroy.LocalScript 
-	local script = Instance.new('LocalScript', Destroy)
+	local script = Instance.new('LocalScript', DeleteGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
