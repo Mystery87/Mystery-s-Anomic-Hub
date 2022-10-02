@@ -7,8 +7,8 @@ local Credits_Roundify_12px = Instance.new("ImageLabel")
 local OneShot = Instance.new("TextButton")
 local AnomicV = Instance.new("TextButton")
 local Anomiss = Instance.new("TextButton")
-local InfiniteYield = Instance.new("TextButton")
-local ScriptXHub = Instance.new("TextButton")
+local Infinite_Yield = Instance.new("TextButton")
+local ScriptX_Hub = Instance.new("TextButton")
 local DeleteGUI = Instance.new("TextButton")
 
 --Properties:
@@ -22,7 +22,7 @@ Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(0.348739803, 0, 0.317195326, 0)
 Frame.Size = UDim2.new(0, 382, 0, 218)
 Frame.Image = "rbxassetid://3570695787"
-Frame.ImageColor3 = Color3.fromRGB(138,43,226)
+Frame.ImageColor3 = Color3.fromRGB(20, 20, 20)
 Frame.ScaleType = Enum.ScaleType.Slice
 Frame.SliceCenter = Rect.new(100, 100, 100, 100)
 Frame.SliceScale = 0.120
@@ -31,14 +31,14 @@ Frame.Draggable = true
 
 Label.Name = "Label"
 Label.Parent = Frame
-Label.BackgroundColor3 = Color3.fromRGB(255, 252, 161)
+Label.BackgroundColor3 = Color3.fromRGB(123, 44, 191)
 Label.BackgroundTransparency = 1.000
 Label.BorderSizePixel = 0
 Label.Size = UDim2.new(0, 382, 0, 44)
 Label.ZIndex = 3
 Label.Font = Enum.Font.SourceSans
 Label.Text = "Mystery's Anomic Hub"
-Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextSize = 24.000
 
 Label_Roundify_12px.Name = "Label_Roundify_12px"
@@ -49,14 +49,14 @@ Label_Roundify_12px.BackgroundTransparency = 1.000
 Label_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
 Label_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
 Label_Roundify_12px.Image = "rbxassetid://3570695787"
-Label_Roundify_12px.ImageColor3 = Color3.fromRGB(75,0,130)
+Label_Roundify_12px.ImageColor3 = Color3.fromRGB(10, 10, 10)
 Label_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 Label_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 Label_Roundify_12px.SliceScale = 0.120
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
-Credits.BackgroundColor3 = Color3.fromRGB(255, 252, 161)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BackgroundTransparency = 1.000
 Credits.BorderSizePixel = 0
 Credits.Position = UDim2.new(0, 0, 0.798165143, 0)
@@ -64,7 +64,7 @@ Credits.Size = UDim2.new(0, 382, 0, 44)
 Credits.ZIndex = 3
 Credits.Font = Enum.Font.SourceSans
 Credits.Text = "Scripts inside this GUI were not made by me"
-Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits.TextSize = 19.000
 Credits.TextWrapped = true
 
@@ -76,21 +76,21 @@ Credits_Roundify_12px.BackgroundTransparency = 1.000
 Credits_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
 Credits_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
 Credits_Roundify_12px.Image = "rbxassetid://3570695787"
-Credits_Roundify_12px.ImageColor3 = Color3.fromRGB(75,0,130)
+Credits_Roundify_12px.ImageColor3 = Color3.fromRGB(10, 10, 10)
 Credits_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 Credits_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 Credits_Roundify_12px.SliceScale = 0.120
 
 OneShot.Name = "OneShot"
 OneShot.Parent = Frame
-OneShot.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OneShot.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 OneShot.BorderSizePixel = 0
 OneShot.Position = UDim2.new(0.0575916134, 0, 0.311926603, 0)
 OneShot.Size = UDim2.new(0, 95, 0, 37)
 OneShot.Font = Enum.Font.SourceSans
 OneShot.Text = "OneShot"
 OneShot.TextColor3 = Color3.fromRGB(255, 255, 255)
-OneShot.TextSize = 14.000
+OneShot.TextSize = 18.000
 OneShot.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalAnomicPlayer/OneShot-Public/main/Script"), true))()
 end)
@@ -99,7 +99,7 @@ end)
 
 AnomicV.Name = "AnomicV"
 AnomicV.Parent = Frame
-AnomicV.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AnomicV.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 AnomicV.BorderSizePixel = 0
 AnomicV.Position = UDim2.new(0.374345541, 0, 0.311926603, 0)
 AnomicV.Size = UDim2.new(0, 95, 0, 37)
@@ -115,7 +115,7 @@ end)
 
 Anomiss.Name = "Anomiss"
 Anomiss.Parent = Frame
-Anomiss.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Anomiss.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 Anomiss.BorderSizePixel = 0
 Anomiss.Position = UDim2.new(0.691099524, 0, 0.311926603, 0)
 Anomiss.Size = UDim2.new(0, 95, 0, 37)
@@ -130,32 +130,32 @@ end)
 
 
 
-InfiniteYield.Name = "InfiniteYield"
-InfiniteYield.Parent = Frame
-InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield.BorderSizePixel = 0
-InfiniteYield.Position = UDim2.new(0.0575916134, 0, 0.550458729, 0)
-InfiniteYield.Size = UDim2.new(0, 95, 0, 37)
-InfiniteYield.Font = Enum.Font.SourceSans
-InfiniteYield.Text = "Infinite Yield"
-InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfiniteYield.TextSize = 14.000
-InfiniteYield.MouseButton1Down:connect(function()
+Infinite_Yield.Name = "Infinite_Yield"
+Infinite_Yield.Parent = Frame
+Infinite_Yield.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
+Infinite_Yield.BorderSizePixel = 0
+Infinite_Yield.Position = UDim2.new(0.0575916134, 0, 0.550458729, 0)
+Infinite_Yield.Size = UDim2.new(0, 95, 0, 37)
+Infinite_Yield.Font = Enum.Font.SourceSans
+Infinite_Yield.Text = "Infinite Yield"
+Infinite_Yield.TextColor3 = Color3.fromRGB(255, 255, 255)
+Infinite_Yield.TextSize = 14.000
+Infinite_Yield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 
-ScriptXHub.Name = "ScriptXHub"
-ScriptXHub.Parent = Frame
-ScriptXHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScriptXHub.BorderSizePixel = 0
-ScriptXHub.Position = UDim2.new(0.374345541, 0, 0.550458729, 0)
-ScriptXHub.Size = UDim2.new(0, 95, 0, 37)
-ScriptXHub.Font = Enum.Font.SourceSans
-ScriptXHub.Text = "ScriptX Hub V1.5"
-ScriptXHub.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScriptXHub.TextSize = 14.000
-ScriptXHub.MouseButton1Down:connect(function()
+ScriptX_Hub.Name = "ScriptX_Hub"
+ScriptX_Hub.Parent = Frame
+ScriptX_Hub.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
+ScriptX_Hub.BorderSizePixel = 0
+ScriptX_Hub.Position = UDim2.new(0.374345541, 0, 0.550458729, 0)
+ScriptX_Hub.Size = UDim2.new(0, 95, 0, 37)
+ScriptX_Hub.Font = Enum.Font.SourceSans
+ScriptX_Hub.Text = "ScriptX Hub V1.5"
+ScriptX_Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptX_Hub.TextSize = 14.000
+ScriptX_Hub.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptXHub/DiscordHiReplyBot-OLD-DOESNT-WORK-broken-/main/jjsongcatch"))()
 end)
 
@@ -163,7 +163,7 @@ end)
 
 DeleteGUI.Name = "DeleteGUI"
 DeleteGUI.Parent = Frame
-DeleteGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DeleteGUI.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 DeleteGUI.BorderSizePixel = 0
 DeleteGUI.Position = UDim2.new(0.691099465, 0, 0.550458729, 0)
 DeleteGUI.Size = UDim2.new(0, 95, 0, 37)
